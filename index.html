@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css"> <!-- la hoja de estilos se carga despues de bootstrap para poder sobreeescribirla -->
+    <title>Grid Practica</title>
+</head>
+<body>
+    <div class="container">
+            <header class="row">
+                <div class="col">
+                    <h1>Header</h1>
+                    <p>12 columnas</p>
+                </div>
+            </header>
+
+            <section class="container-main row align-items-center">
+                <main class="col-md-8">
+                    <h2>main</h2>
+                <p class="d-none d-md-block">8 columnas</p>
+                <p class="d-block d-md-none">12 columnas</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae doloremque, fugit, deserunt architecto itaque et rem eum aperiam nam voluptas laborum dolorum asperiores quaerat explicabo rerum obcaecati cum sed voluptates.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, soluta. Suscipit excepturi, alias laborum ullam optio illo? Veritatis pariatur id officia earum eius. Obcaecati omnis laborum animi, accusantium dolore quas!</p>
+                </main>
+                <aside class="col-md-4">
+                    <h3>aside</h3>
+                    <p class="d-none d-md-block">4 columnas</p>
+                    <p class="d-block d-md-none">12 columnas</p>
+                </aside>
+            </section>
+
+            <section class="row widgets justify-content-evenly">
+                <div class="col-12 col-md-4 col-lg-3">
+                    <p class="d-none d-lg-block">3 columnas</p>
+                    <p class="d-none d-md-block d-lg-none">4 columnas</p>
+                    <p class="d-block d-md-none">12 columnas</p>
+
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat optio temporibus ullam nostrum rem, similique, iste sed nobis sunt quo perferendis laboriosam modi praesentium! Maxime quam libero voluptas excepturi! Unde!</p>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3">
+                    <p class="d-none d-lg-block">3 columnas</p>
+                    <p class="d-none d-md-block d-lg-none">4 columnas</p>
+                    <p class="d-block d-md-none">12 columnas</p>
+
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat optio temporibus ullam nostrum rem, similique, iste sed nobis sunt quo perferendis laboriosam modi praesentium! Maxime quam libero voluptas excepturi! Unde!</p>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3">
+                    <p class="d-none d-lg-block">3 columnas</p>
+                    <p class="d-none d-md-block d-lg-none">4 columnas</p>
+                    <p class="d-block d-md-none">12 columnas</p>
+
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat optio temporibus ullam nostrum rem, similique, iste sed nobis sunt quo perferendis laboriosam modi praesentium! Maxime quam libero voluptas excepturi! Unde!</p>
+                </div>
+            </section>
+
+            <footer class="row">
+                <div class="col">
+                    <h3>footer</h3>
+                    <p>12 columnas</p>
+                </div>
+            </footer>
+        </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

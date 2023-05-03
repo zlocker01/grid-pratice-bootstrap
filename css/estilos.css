@@ -1,0 +1,41 @@
+body{
+    background: #f0f3f5;
+    color: #fff;
+}
+
+header{
+    background: #9aca40;
+    margin-bottom: 1.25rem;
+    padding: 1.25rem;
+}
+
+.container-main {
+    margin-bottom: 1.25rem;
+}
+
+main {
+    background-color: #fff;
+    color: #424242;
+    padding: 1.25rem 0;
+}
+
+aside{
+    background: #dee5e8;
+    padding: 3.75rem 0;
+    color: #0d47a1;
+}
+
+.widgets {
+    margin-bottom: 1.25rem;
+}
+
+.widgets > div {
+    background: #2196f3;
+    color: #fff;
+    padding: 1.25rem;
+}
+
+footer {
+    background: #1e1e1e;
+    padding: 1.25rem 0;
+}
